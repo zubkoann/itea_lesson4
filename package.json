@@ -1,0 +1,19 @@
+{
+  "name": "lesson_6-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cli": "webpack ./application/index.js --output-path ./public/js --output-filename bundle.js --env development --mode development --color --watch",
+    "mycli": "webpack ./classwork/index.js --output-path ./public/js --output-filename bundle2.js --env development --mode development --color --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
